@@ -11,13 +11,18 @@
 	rel="stylesheet">
 <script src="<c:url value="/resources/js/jquery-1.11.1.min.js" />"></script>
 <script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 
 </head>
 <body>
 	<div class="container">
 		<div class="col-md-offset-2 col-md-7">
-			<h2 class="text-center">Spring MVC 5 + Hibernate 5 + JSP + MySQL
-				Example</h2>
+			<h2 class="text-center">CRUD - SpringMVC + Hibernate + Mysql</h2>
 			<div class="panel panel-info">
 				<div class="panel-heading">
 					<div class="panel-title">Add Customer</div>

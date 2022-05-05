@@ -5,23 +5,23 @@
 <html>
 <head><%@ page isELIgnored="false"%>
 <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<title>javaguides.net</title>
-<link href="<c:url value="/resources/css/bootstrap.min.css" />"
-	rel="stylesheet">
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="<c:url value="/resources/js/bootstrap.min.js" />"></script>
+<title>nhuttran.net</title>
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script
+	src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script
+	src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 </head>
 <body>
 	<div class="container">
 		<div class="col-md-offset-1 col-md-10">
-			<h2>CRM - Customer Relationship Manager</h2>
+			<h2>CRUD - SpringMVC + Hibernate + Mysql</h2>
 			<hr />
 
 			<input type="button" value="Add Customer"
 				onclick="window.location.href='showForm'; return false;"
-				class="btn btn-primary" /> <br />
-			<br />
+				class="btn btn-primary" /> <br /> <br />
 			<div class="panel panel-info">
 				<div class="panel-heading">
 					<div class="panel-title">Customer List</div>
