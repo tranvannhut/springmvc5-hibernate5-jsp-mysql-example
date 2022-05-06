@@ -130,14 +130,6 @@
 					<encoding>UTF-8</encoding>
 				</configuration>
 			</plugin>
-			<plugin>
-				<groupId>com.heroku.sdk</groupId>
-				<artifactId>heroku-maven-plugin</artifactId>
-				<version>3.0.3</version>
-				<configuration>
-					<appName>springmvc1234</appName>
-				</configuration>
-			</plugin>
 		</plugins>
 		<finalName>springmvc5-hibernate5-jsp-mysql-example</finalName>
 	</build>

@@ -14,6 +14,10 @@ import org.springframework.orm.hibernate5.HibernateTransactionManager;
 import org.springframework.orm.hibernate5.LocalSessionFactoryBean;
 import org.springframework.transaction.annotation.EnableTransactionManagement;
 
+/**
+ * @author nhutt
+ *
+ */
 @Configuration
 @PropertySource("classpath:database.properties")
 @EnableTransactionManagement

@@ -14,6 +14,11 @@ import org.springframework.web.bind.annotation.RequestParam;
 import net.javaguides.springmvc.entity.Customer;
 import net.javaguides.springmvc.service.CustomerService;
 
+/**
+ * Class handle logic
+ * @author nhutt
+ *
+ */
 @Controller
 @RequestMapping("/customer")
 public class CustomerController {
