@@ -4,6 +4,10 @@ import java.util.List;
 
 import net.javaguides.springmvc.entity.Customer;
 
+/**
+ * @author nhutt
+ *
+ */
 public interface CustomerService {
 
 	public List<Customer> getCustomers();
